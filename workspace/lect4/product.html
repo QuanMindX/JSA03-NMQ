@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    ​<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none; font-size: 30px;color: #F2DD94; background-color: #3E6D87;" id="mySidebar">
+        <button style="color: #F2DD94; background-color: #3E6D87; " onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+        <a href="http://127.0.0.1:5500/lect4/index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="http://127.0.0.1:5500/lect4/about.html" class="w3-bar-item w3-button">About</a>
+        <a href="http://127.0.0.1:5500/lect4/product.html" class="w3-bar-item w3-button">Product</a>
+        <a href="#" id="footer" class="w3-bar-item w3-button">Contact</a>
+    </div>
+    <div id="nav">
+        <div id="left-nav">
+            <ul>
+                <li>
+                    <div>
+                        <button
+                            style="font-size: 40px; color: #F2DD94; background-color: #3E6D87; border-style: none;"
+                            onclick="w3_open()">☰</button>
+                        <div class="w3-container">
+                        </div>
+                    </div>
+                </li>
+                <li> <a href="http://127.0.0.1:5500/lect4/index.html">Home</a></li>
+                <li> <a href="http://127.0.0.1:5500/lect4/about.html">About</a></li>
+                <li> <a href="http://127.0.0.1:5500/lect4/product.html">Product</a></li>
+                <li> <a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div id="right-nav">
+            <ul>
+                <li><input type="text" placeholder="Search something..."></li>
+                <li><button><i class="fa-solid fa-magnifying-glass"></i></button></li>
+                <li><a href=""><i class="fa-solid fa-circle-user"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="type">
+        <div>
+            <h1>Chinese Style Mooncakes - Cantonese Mooncake</h1>
+            <p>Cantonese mooncake has multiple variations and is the most famous regional style of the mooncake. The
+                ingredients used for the fillings are various: lotus seed paste, melon seed paste, nuts, ham, chicken,
+                duck, roast pork, mushrooms, egg yolks, etc. More elaborate versions contain four egg yolks,
+                representing the four phases of the moon.</p> <img src="assests/beijing-style-moon-cake-jujube.webp"
+                alt="">
+        </div>
+        <div>
+            <h1>Japanese Style Mooncakes - Tsumiki Dango</h1>
+            <p>Tsukimi dango is made up of 15 rice dumplings to represent the 15 nights, Tsukimi is a time to express
+                gratitude for the year's harvest, it's only natural that dango made from rice flour. Traditionally they
+                are stacked in a pyramid shape on top of a small wooden Shinto offering stand called a "sanbo" and
+                displayed in a place with a good view of the moon. After displaying Tsukimi Dango for hours or a day,
+                the dumplings may have become hard to eat, you can cut and toast it in the oven toaster or frying pan
+                then coat the dango with sweet soy glaze (mitarashi sauce)</p><img src="assests/Tsukimi-Dango-3.webp"
+                alt="">
+        </div>
+        <div>
+            <h1 >Suzhou Style Mooncakes</h1>
+            <p style="color: white;">Suzhou-style mooncake: This style began more than a thousand years ago, and is known for its layers of
+                flaky dough and generous allotment of sugar and lard. Within this regional type, there are more than a
+                dozen variations.It is also smaller than most other regional varieties. Suzhou-style mooncakes feature
+                both sweet and savory types, the latter served hot and usually filled with pork mince.</p><img
+                src="assests/suzhou-style-moon-cake.webp" alt="">
+        </div>
+        <div>
+            <h1 >Hongkong Style Mooncakes - Snow skin Mooncake</h1>
+            <p style="color: white;">
+                Snow skin mooncakes are a non-baked mooncake originating from Hong Kong.The crust
+                of snow skin mooncake is made of glutinous rice, which is frozen.While traditional mooncakes are usually
+                filled with salted duck egg yolks and lotus seed paste or red bean paste, snow skin mooncakes can be
+                filled with a variety of fillings such as mung bean paste, fruit, green tea, jam, strawberry, chocolate,
+                coffee, cheese. Other flavored fillings include durian, sesame, mango pomelo sago, and purple yam.</p>
+            <img src="assests/snow-skin-mooncakes-with-colors.webp" alt="">
+        </div>
+        <div>
+            <h1 >Indonesian Style Mooncakes</h1>
+            <p style="color: white;">In Indonesia, there are several main types of mooncakes,from the traditional to the modern mooncakes. The
+                very traditional mooncake has been there ever since the Chinese and Japanese entered Indonesia, they are
+                circular like a moon, white and thinner than regular mooncake. This type of mooncake is widely available
+                all year long while the regular modern mooncakes are usually only sold around the mid-autumn festival
+                season. </p><img src="assests/mooncakes.jpg" alt="">
+        </div>
+        <div>
+            <h1>Vietnamese Style Mooncakes</h1>
+            <p style="color: white;">Vietnamese mooncakes have two basic parts: crust and filling. The ingredients usually consist of: jam,
+                dried sausage, mung bean paste, salt, sugar, cooking oil, sugared lard, lotus seed, watermelon seed,
+                etc. Compared to other variants, Vietnamese mooncake's flavor is more on the sweet side. Traditional
+                Chinese cakes use glutinous rice flour filled with pure red bean paste and salted eggs or char siu while
+                traditional Vietnamese mooncakes are a mixture of sugar, fat, melon seeds, lime leaves, sausage or dried
+                chicken, pumpkin jam, lotus jam, and roasted sesame.</p><img src="assests/mooncake.jpg" alt="">
+        </div>
+        <div>
+            <h1>Thailand Style Monncakes</h1>
+            <p style="color: white;">Thai mooncake consists of a thin crust which is filled with a variety of ingredients depending on the
+                cook’s preference. The top of the mooncake is usually decorated with something creative, text, or
+                symbolic designs during the holiday. Initially, mooncakes were only consumed during the festival. </p>
+            <img src="assests/thai-mooncake-recipe-main-photo.jpg" alt="">
+        </div>
+  
+        <div id="contact" class="contact" style="display: inline;">
+            <h2 style="font-size: 40px;"> Contact </h2>                <div style=" display: flex; justify-content: flex-end;"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62700.40253539507!2d106.56168882167971!3d10.8285112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752924bad70793%3A0xa0a56faace3b9b2b!2sMooncakes%20Kinh%20River%20Day!5e0!3m2!1sen!2sus!4v1693142643368!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3 style="font-size: 40px;"> HCM, Vietnam <br>
+                Phone: +00 151515 <br>
+                Email: mail@mail.com <br> </h3>
+            <form style="font-size:30px; margin-top: 100px;" action="/action_page.php" target="_blank">
+                <input type="text" placeholder="Name" required name="Name">
+                <input type="text" placeholder="Email" required name="Email">
+                <input type="text" placeholder="Message" required name="Message">
+                
+                <button type="submit">SEND</button>
+               
+                
+            </form>
+        </div>
+    
+
+</body>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script> w3.slideshow(".slides", 2500)</script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="main.js"></script>
+</html>

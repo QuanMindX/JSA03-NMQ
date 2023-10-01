@@ -1,0 +1,39 @@
+body{
+    background: url("https://tse3.mm.bing.net/th?id=OIP.Jgn6GNUJHcAgrpLo_96CfQHaEo&pid=Api&P=0&h=220");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(2px);
+}
+
+#signup-form {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+
+#signup-form form label, #signup-form form input{
+    font-size: 25px;
+    color: lime;
+
+}
+#signup-form form label{
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px black solid;
+}
+
+#signup-form form div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+
+#register-btn{
+    background-color: black;
+    border-radius: 5px;
+    font-size: 30px;
+    color: white;
+}

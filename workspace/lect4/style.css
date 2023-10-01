@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3E6D87;
+}
+
+#nav {
+    height: 80px;
+    width: 100%;
+    background-color:#3E6D87;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+#nav ul li a {
+    margin: 0 5px;
+    color: #F2DD94;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+#main-banner img {
+    width: 100%;
+    object-fit: cover;
+    height: 800px;
+}
+
+#hr1 {
+    margin: 0;
+}
+
+#home h1 {
+    color: #F2DD94;
+    background-color: #3E6D87;
+    font-weight: 700;
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
+#type img {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#type1 img {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 700px;
+}
+
+#type h1 p {
+    position: absolute;
+    color: #F2DD94;
+    font-weight: 500;
+    font-size: 50px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Lato', sans-serif;
+   
+}
+
+p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    backdrop-filter: blur(8px);
+}
+
+#main-banner img {
+    margin-top: 50px;
+}
+
+#about {
+    color:  #F2DD94;
+    background-color: #3E6D87;
+    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
+#about h1  {
+    color:  #F2DD94;
+    background-color: #3E6D87;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Lato', sans-serif;
+}
+
+#contact {
+    color: #F2DD94;
+    background-color: #3E6D87;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+
+a:hover {
+  background-color:  #C9594C;
+}
+
+#type h1{
+    color:  #F2DD94  ;
+}
+button:hover {
+    background-color: #C9594C;
+}

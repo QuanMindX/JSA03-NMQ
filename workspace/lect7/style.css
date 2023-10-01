@@ -1,0 +1,21 @@
+#my-div {
+    background-color: bisque;
+}
+
+.multi-color {
+    background: linear-gradient(25deg, #FFBE08, #FB8507, red, purple, blue )
+}
+#my-div2 {
+    width: 600px;
+    height: 400px;
+    background-color: orange;
+    transition: width 2s, height 2s;
+}
+#my-div2:hover {
+    width: 1000px;
+    height: 800px;
+    background: linear-gradient(25deg, #FFBE08, #FB8507, red, purple, blue )
+}
+.my-div2-toggle {
+    background: linear-gradient(25deg, #FFBE08, #FB8507, red, purple, blue )
+}

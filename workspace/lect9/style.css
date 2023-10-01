@@ -1,0 +1,20 @@
+/* 2đ */
+body {
+    /* style cho body */
+}
+
+.tamgiacvuong {
+    /* style cho div chứa ô nhập số và các nút bấm */
+}
+
+.number {
+    /* style cho ô nhập số */
+}
+
+.operators {
+    /* style cho div chứa tất cả nút bấm phép toán*/
+}
+
+.operator {
+    /* style cho nút bấm phép toán */
+}

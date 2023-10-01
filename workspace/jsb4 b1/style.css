@@ -1,0 +1,21 @@
+#clients {
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    width: fit-content;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#header h1 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+i{
+    margin-right: 10px;
+    color: limegreen;
+    text-decoration: none;
+    font-size: 80px;
+}

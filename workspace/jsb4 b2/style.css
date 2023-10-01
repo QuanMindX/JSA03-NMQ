@@ -1,0 +1,63 @@
+
+#green {
+    background-color: limegreen;
+    height: 550px;
+    width: 400px;   
+}
+
+#green p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    height: 500px;
+    width: 400px;
+}
+
+#text {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+
+#text span{
+    background-color: darkturquoise;
+    color: white;
+}
+
+#text h1 p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#custom{
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    justify-content: space-evenly;
+   
+}
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+i{
+    margin-right: 5px;
+    color: turquoise;
+    font-size: 25px;
+}
+
+#button button{
+    color: white;
+    background-color: turquoise;
+    border: 0;
+    font-size: 20px;
+    margin-left: 90px;
+}
+
+
+
+
+

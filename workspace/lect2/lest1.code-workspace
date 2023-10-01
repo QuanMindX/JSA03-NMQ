@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../lest1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lect2"
+	}
+}

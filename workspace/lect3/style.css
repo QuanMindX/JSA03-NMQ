@@ -1,0 +1,34 @@
+.sq1 {
+    display: flex;
+    justify-content: center;
+}
+.sq2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sq3 {
+    display: flex;
+    justify-content: space-between;
+}
+.sq4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.sq5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sq6{
+    display: flex;
+    justify-content: start;
+}
+.sq7{
+    display: flex;
+    justify-content: start;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+
